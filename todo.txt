@@ -10,7 +10,6 @@ tawai.net
     music updates
 
 animated favicon
-custom scrollbar
 custom highlight
 cursor trail
 random page link
