@@ -3,6 +3,5 @@
     "cleanUrls": true,
     "rewrites": [
         { "source": "/:path", "destination": "/pages/:path.html" },
-        { "source": "/", "destination": "index.html" }
     ]
 }
