@@ -9,6 +9,8 @@ tawai.net
     music player
     music updates
 
+black and purple jellyfish theme?
+
 animated favicon
 custom highlight
 cursor trail

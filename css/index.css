@@ -1,17 +1,21 @@
 a:link {
     color: blue;
+    text-decoration: none;
 }
 
 a:visited {
     color: purple;
+    text-decoration: none;
 }
 
 a:hover {
     color: yellow;
+    text-decoration: none;
 }
 
 a:active {
     color: red;
+    text-decoration: none;
 }
 
 body {
@@ -42,4 +46,5 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
