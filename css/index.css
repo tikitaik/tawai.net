@@ -1,3 +1,19 @@
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
 body {
     background-image: url("../resources/tawai.jpg");
     background-size: 100vw 100vh;
