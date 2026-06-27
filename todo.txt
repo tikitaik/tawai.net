@@ -1,0 +1,15 @@
+animated favicon
+custom scrollbar
+custom highlight?
+cursor trail
+random page link
+dithering / retro grahpics
+konami code thing
+blog stats
+rss feeds
+analog guestbook
+custom audio player
+current mood indicator?
+footer time capsule
+dark blue / bright yellow hyperlinks on hover
+hotline webring?
