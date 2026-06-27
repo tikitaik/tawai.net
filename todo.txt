@@ -1,23 +1,21 @@
 tawai.net
     about me
-    projects
         current mood indicator?
+        blog stats for me
+    about website
+        blog stats for the site itself
+    projects
     guestbook
     music player
     music updates
-    blog stats (for me or for the site itself)
-
-about website
-
 
 animated favicon
 custom scrollbar
-custom highlight?
+custom highlight
 cursor trail
 random page link
 dithering / retro grahpics
 konami code thing
 custom audio player
 footer time capsule
-dark blue / bright yellow hyperlinks on hover
 hotline webring?
