@@ -3,38 +3,37 @@
     <head>
         <title>tawai.net</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
         <div class = "center-div">
             <h1>tawai.net</h1>
-            <h2>
-            <a href="aboutme">about me</a><br>
-            <a href="changelog">changelog</a><br>
-            <a href="projects">projects</a><br>
-            <a href="tree">tree information</a><br>
-            <a href="music">music</a><br>
-            <a href="guestbook">guestbook is here if you feel so inclined...?</a><br>
-            </h2>
+            <div class = "button-group">
+                    <a href="aboutme"><button type = "button">about me</button></a>
+                    <a href="projects"><button type = "button">projects</button>
+                    <a href="music"><button type = "button">music</button></a>
+                </button>
+            </div>
+        </div>
+        <div style = "display: flex; white-space: nowrap;">
+            <div class = "center-div">
+                <h2>changelog</h2>
+            </div>
+            <div class = "center-div">
+                <h2>tawai tree</h2>
+            </div>
         </div>
         <div class = "center-div">
-            <img src="resources/jellyfish.gif" alt="(|-<=">
-            <img src="resources/under-construction.gif" alt="Will be for some time">
+            <iframe src="https://tawai.atabook.org"
+                    height = "600"
+                    frameborder="1"
+                    scrolling="yes">
         </div>
-        <!--
-        <h1>Tawai (Silver Beech Tree)</h1>
-        <img src="resources/tree.jpg" alt="Very cool tree">
-        <h1>Catbus</h1>
-        <img src="resources/catbus.png" alt="cant find catbus rip" width = "800" height = "600">
-        <h1>Monomon</h1>
-        <img src="resources/monomon.webp" alt="cant find monomon rip" width = "800" height = "600">
-        <h1>Rocksteady</h1>
-        <img src="resources/rocksteady.webp" alt="cant find rocksteady rip" width = "800" height = "600">
-        <h1>Karmelita</h1>
-        <img src="resources/karmelita.avif" alt="cant find karmelita rip" width = "800" height = "600">
-        <h1>Penpen</h1>
-        <img src="resources/penpen.jpg" alt="cant find penpen rip" width = "800" height = "600">
-        -->
+        <div class = "center-div">
+            <img src="resources/under-construction.gif"
+                 alt="Will be for some time"
+                 style = "border-radius: 5px;">
+        </div>
     </body>
 </html>

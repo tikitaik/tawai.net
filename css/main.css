@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "libertinus";
+    src: url("/fonts/LibertinusMono.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "xanh";
+    src: url("/fonts/XanhMono-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../resources/jellyfish.avif");
+    background-size: 100vw auto;
+    font-family: "xanh";
+    color: white;
+}
+
+button {
+    font-family: inherit;
+}
+
+iframe {
+    background: transparent;
+    border: none;
+}
+
+h1 {
+    font-style: Italic;
+}
+
+h2 {
+    font-style: Italic;
+}
+
+img {
+    display: block;
+}
+
+p {
+    margin-left: 40px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+    margin: 20px;
+}
+
+.button-group button {
+    font-size: 150%;
+}
+
+.center-div {
+    margin: auto 25vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

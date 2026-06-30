@@ -15,8 +15,37 @@ animated favicon
 custom highlight
 cursor trail
 random page link
-dithering / retro grahpics
+optional dithering / retro grahpics (maybe downscale and upscale again?)
 konami code thing
 custom audio player
 footer time capsule
 hotline webring?
+
+Layout
+--------------------------------------------------------
+|                     tawai.net                        |
+|          about me |  projects | music                |
+|                                                      |
+|   tree information               changelog           |
+| |                  |                                 |
+| |                  |                                 |
+| |                  |                                 |
+| |                  |                                 |
+| |                  |                                 |
+| |                  |                                 |
+| |==================|                                 |
+|                                                      |
+|                                                      |
+|                     guestbook                        |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|                                                      |
+|-------------------------------------------------------
