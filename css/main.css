@@ -89,6 +89,6 @@ p {
 
 .content {
     width: 48vw;
-    padding: 4vw;
-
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
