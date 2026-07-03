@@ -54,14 +54,14 @@ h1 {
 
 h2 {
     font-style: Italic;
+    text-indent: 4vw;
 }
 
 img {
-    display: block;
 }
 
 p {
-    margin-left: 40px;
+    white-space: normal;
 }
 
 .button-group {
@@ -74,13 +74,21 @@ p {
 
 .button-group button {
     font-size: 150%;
+    padding: 5px;
+    white-space: nowrap;
 }
 
 .center-div {
-    margin: auto 25vw;
-    align-items: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 1vw;
+}
+
+.content {
+    width: 48vw;
+    padding: 4vw;
+
 }
