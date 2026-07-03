@@ -13,22 +13,22 @@
 }
 
 a:link {
-    color: blue;
+    color: gray;
     text-decoration: none;
 }
 
 a:visited {
-    color: purple;
+    color: darkgray;
     text-decoration: none;
 }
 
 a:hover {
-    color: yellow;
+    color: lightgray;
     text-decoration: none;
 }
 
 a:active {
-    color: red;
+    color: lightslategray;
     text-decoration: none;
 }
 
