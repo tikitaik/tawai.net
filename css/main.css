@@ -57,11 +57,9 @@ h2 {
     text-indent: 4vw;
 }
 
-img {
-}
-
 p {
     white-space: normal;
+    text-shadow: 3px 3px 3px black;
 }
 
 .button-group {
