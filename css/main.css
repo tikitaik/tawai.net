@@ -78,8 +78,8 @@ p {
 }
 
 .button-group button {
-    font-size: 150%;
-    padding: 8px;
+    font-size: 130%;
+    padding: 0.5em;
     white-space: nowrap;
 }
 
