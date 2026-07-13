@@ -45,7 +45,7 @@ body {
 button {
     font-family: inherit;
     box-shadow: 3px 3px 3px black;
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 1px 1px 3px black;
 }
 
 iframe {
