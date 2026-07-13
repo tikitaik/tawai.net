@@ -13,39 +13,49 @@
 }
 
 a:link {
-    color: gray;
+    color: royalblue;
     text-decoration: none;
 }
 
 a:visited {
-    color: darkgray;
+    color: fuchsia;
     text-decoration: none;
 }
 
 a:hover {
-    color: lightgray;
+    color: blue;
     text-decoration: none;
 }
 
 a:active {
-    color: lightslategray;
+    color: steelblue;
     text-decoration: none;
 }
 
 body {
     background-image: url("../resources/jellyfish.avif");
+    background-attachment: fixed;
+    background-position: center;
     background-size: 100vw auto;
-    font-family: "xanh";
     color: white;
+    font-family: "xanh";
+    text-shadow: 3px 3px 3px black;
 }
 
 button {
     font-family: inherit;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 1px 1px 10px black;
 }
 
 iframe {
     background: transparent;
     border: none;
+}
+
+img {
+    max-width: inherit;
+    max-height: inherit;
 }
 
 h1 {
@@ -54,12 +64,10 @@ h1 {
 
 h2 {
     font-style: Italic;
-    text-indent: 4vw;
 }
 
 p {
     white-space: normal;
-    text-shadow: 3px 3px 3px black;
 }
 
 .button-group {
@@ -72,7 +80,7 @@ p {
 
 .button-group button {
     font-size: 150%;
-    padding: 5px;
+    padding: 8px;
     white-space: nowrap;
 }
 
@@ -85,8 +93,10 @@ p {
     margin-top: 1vw;
 }
 
-.content {
-    width: 48vw;
+.content-div {
+    max-width: 40%;
     padding-left: 4vw;
     padding-right: 4vw;
+    text-align: left;
+    justify-content: center;
 }
