@@ -9,17 +9,52 @@
         <div class = "center-div">
             <h1><a href = "/" style = "color: inherit; text-decoration: none;">tawai.net</a></h1>
             <div class = "content-div">
-                <h2>Computer Projects</h2>
-                <h3><a href="https://github.com/tikitaik" target="_blank">my github</a></h3>
+                <h1>Computer Projects</h1>
+                <h2><a href="https://github.com/tikitaik" target="_blank">My Github</a></h2>
+                <h2>Learning OpenGL</h2>
                 <p>
-                I've recently been trying to use my graphics card to do fun or interesting
-                simulations through OpenGL, like Shadow the Hedgehog staring at his own shadow,
-                or terrain generation.
+                I thought it would be interesting to use my graphics card to render light and stuff
+                through OpenGL initially, then move to something like Vulcan later since OpenGL is
+                very old.
                 </p>
                 <p>
-                To do this I went through all of the tutorials on <a href = "https://learnopengl.com" target = "_blank">learnopengl</a>
+                So I went through the tutorials on <a href = "https://learnopengl.com" target = "_blank">learnopengl</a>
                 and ended up making an elementary PBR rendering engine, whilst implementing other
                 fun things like instanced object, bloom, antialiasing, and so on...
+                </p>
+                <div class = "center-div">
+                    <img src = "resources/project-ss/learnopengl_1.png" style = "width: 60%;">
+                </div>
+                <p>
+                Here, there is the Stanford Dragon imported using assimp, with a skybox rendered
+                by sampling a unit cube, and a shader that calculates the Mandelbrot set at runtime
+                (expensive).
+                </p>
+                <div class = "center-div">
+                    <img src = "resources/project-ss/learnopengl_2.png" style = "width: 60%;">
+                </div>
+                <p>
+                This is a set of spheres rendered with basic PBR principles with varying roughness
+                and metallic values, using OpenGL.
+                </p>
+                <br>
+
+                <h2>Terrain Generator</h2>
+                <p>Currently I am working on a terrain generator that doesn't generate very good terrain,
+                also in OpenGL, but have been experimenting with noise algorithms along the way too.
+                </p>
+                <div class = "center-div">
+                    <img src = "resources/project-ss/terraingenerator_1.png" style = "width: 60%;">
+                </div>
+                <p>
+                Current state of the terrain generator :(, just implemented Blinn-Phong lighting and the
+                "terrain" is just ridge noise.
+                </p>
+                <div class = "center-div">
+                    <img src = "resources/project-ss/terraingenerator_2.png" style = "width: 60%;">
+                </div>
+                <p>
+                This is domain warped Fractal Brownian Motion generated with only Perlin noise, very cool!
                 </p>
                 <p>
                 If you ever end up trying out the kitty terminal be sure to check the Popping and Locking
