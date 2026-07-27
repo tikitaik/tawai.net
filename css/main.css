@@ -39,12 +39,12 @@ body {
     background-size: 100vw auto;
     color: white;
     font-family: "xanh";
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 0.2em 0.2em 0.2em black;
 }
 
 button {
     font-family: inherit;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 0.2em 0.2em 0.2em black;
 }
 
 iframe {
