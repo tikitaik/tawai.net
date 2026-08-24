@@ -5,7 +5,7 @@ case "$OSTYPE" in
         rm -rf /opt/homebrew/var/www/*
         cp -r * /opt/homebrew/var/www
         ;; 
-    linux)
+    linux*)
         rm -rf /srv/http/*
         cp -r * /srv/http
         ;;
