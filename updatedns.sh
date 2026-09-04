@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export $(grep -v '^#' .env | xargs)
+export $(grep -v '^#' $HOME/Projects/tawai.net/.env | xargs)
 
 # Full paths
 CURL="/usr/bin/curl"
