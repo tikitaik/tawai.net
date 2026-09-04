@@ -2,13 +2,22 @@
 
 case "$OSTYPE" in
     darwin*)
-        sudo rm -rf /opt/homebrew/var/www/*
-        sudo cp -r * /opt/homebrew/var/www
-        sudo cp .htaccess /opt/homebrew/var/www
+        DEST_DIR="/opt/homebrew/var/www"
+
+        sudo rm -rf $DEST_DIR/*
+        sudo cp -r * $DEST_DIR
+        sudo cp .htaccess $DEST_DIR
+        sudo rm $DEST_DIR/reload_server.sh
+        sudo rm $DEST_DIR/dns_update.sh
         ;; 
     linux*)
-        sudo rm -rf /srv/http/*
-        sudo cp -r * /srv/http
-        sudo cp .htaccess /srv/http
+        DEST_DIR="/srv/http"
+
+        sudo rm -rf $DEST_DIR/*
+        sudo cp -r * $DEST_DIR
+        sudo cp .htaccess $DEST_DIR
+        sudo rm $DEST_DIR/reload_server.sh
+        sudo rm $DEST_DIR/dns_update.sh
         ;;
 esac
+
