@@ -43,8 +43,16 @@ body {
 }
 
 button {
-    font-family: inherit;
+    background-color: #faf3e6;
+    border: none;
+    border-radius: 0.25em;
+    font-family: "xanh";
     box-shadow: 0.2em 0.2em 0.2em black;
+}
+
+button:hover {
+    background-color: #dbd0bd;
+    opacity: 0.85;
 }
 
 iframe {
