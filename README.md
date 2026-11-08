@@ -10,7 +10,6 @@ My personal website: hand-written HTML and CSS with no frameworks or build step,
 
 **Live site:** [tawai.net](https://tawai.net)
 
-<!-- Add a screenshot of the home page here, e.g.:-->
 ![tawai.net home page](resources/project-ss/homescreen.png)
 
 ## About the project
@@ -105,6 +104,5 @@ Ideas I'm planning to add are tracked in [`todo.txt`](todo.txt), including a mus
 
 ## Contact
 
-<!-- Add your name and links, e.g.:-->
 **Edward Hirst** · [Portfolio](https://tawai.net/projects) · [LinkedIn](https://linkedin.com/in/ed-hirst) · [edthirst@gmail.com](mailto:edthirst@gmail.com)
 

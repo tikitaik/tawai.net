@@ -15,11 +15,11 @@ animated favicon
 custom highlight
 cursor trail
 random page link
-optional dithering / retro grahpics (maybe downscale and upscale again?)
+optional dithering / retro graphics (maybe downscale and upscale again?)
 konami code thing
 custom audio player
 footer time capsule
-hotline webring?
+hotline webring
 
 Layout
 --------------------------------------------------------

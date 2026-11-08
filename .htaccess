@@ -4,4 +4,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule (.*) pages/$1.html [L]
-#RewriteRule ^(.*)$ index.html?path=$1 [QSA,L]
