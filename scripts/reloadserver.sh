@@ -7,8 +7,9 @@ case "$OSTYPE" in
         sudo rm -rf $DEST_DIR/*
         sudo cp -r * $DEST_DIR
         sudo cp .htaccess $DEST_DIR
-        sudo rm $DEST_DIR/reloadserver.sh
-        sudo rm $DEST_DIR/updatedns.sh
+        sudo rm -rf $DEST_DIR/scripts
+        sudo rm $DEST_DIR/todo.txt
+        sudo rm $DEST_DIR/README.md
         ;; 
     linux*)
         DEST_DIR="/srv/http"
@@ -16,8 +17,9 @@ case "$OSTYPE" in
         sudo rm -rf $DEST_DIR/*
         sudo cp -r * $DEST_DIR
         sudo cp .htaccess $DEST_DIR
-        sudo rm $DEST_DIR/reloadserver.sh
-        sudo rm $DEST_DIR/updatedns.sh
+        sudo rm -rf $DEST_DIR/scripts
+        sudo rm $DEST_DIR/todo.txt
+        sudo rm $DEST_DIR/README.md
         ;;
 esac
 

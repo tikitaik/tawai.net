@@ -15,7 +15,7 @@ CLOUDFLARE_API_ENDPOINT="https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns
 # Get IP Listed in Cloudflare record
 current_ip=$($CURL -s -X GET "$CLOUDFLARE_API_ENDPOINT" \
     -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-    -H "Content-Type": application/json | $JQ -r '.result.content')
+    -H "Content-Type: application/json" | $JQ -r '.result.content')
 
 # Check if match with current IP
 if [[ "$IP" == "$current_ip" ]]; then

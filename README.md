@@ -15,7 +15,7 @@ My personal website: hand-written HTML and CSS with no frameworks or build step,
 
 ## About the project
 
-The site started as a place to showcase my programming projects and has grown into a general home on the web. It is named after the Tawai tree (*Nothofagus menziesii*), a silver beech, and the visual theme is privy to my whims.
+The site started as a place to showcase my programming projects and has grown into a general home on the web. It is named after the Tawai (my middle name) tree (*Nothofagus menziesii*), a silver beech.
 
 I deliberately built it by hand to understand the full path from files to a working site: writing the markup and styles, configuring a web server, routing clean URLs, and keeping a DNS record current on a residential IP address.
 
@@ -35,20 +35,19 @@ I deliberately built it by hand to understand the full path from files to a work
 - **Clean URLs via `mod_rewrite`.** `.htaccess` maps extensionless paths like `/aboutme` to `pages/aboutme.html`, but only when the request doesn't match a real file or directory, so static assets are served normally.
 - **Dynamic DNS automation** (`updatedns.sh`). A Bash script uses `curl` and `jq` to compare my current public IP with the Cloudflare DNS record and update it through the Cloudflare API only when it has changed.
 - **Secrets kept out of the repo.** API credentials live in a git-ignored `.env` file that the script loads at runtime.
-- **One-command deploy** (`reloadserver.sh`). Detects macOS (Homebrew Apache) or Linux and copies the site into the right web root, excluding the maintenance scripts.
+- **One-command deploy** (`reloadserver.sh`). Detects macOS (Homebrew Apache) or Linux and copies the site into the right web root, excluding the maintenance scripts, todo, and README.
 
 ## Repository structure
 
 ```
 .
 ├── index.html            Home page
-├── pages/                aboutme, projects, media
+├── pages/                aboutme, projects
 ├── css/main.css          Site-wide styles
 ├── fonts/                Xanh Mono and Libertinus Mono (self-hosted)
 ├── resources/            Images, background, project screenshots
+├── scripts/              Bash scripts used to test locally or update dns records
 ├── .htaccess             Clean-URL rewrite rules
-├── reloadserver.sh       Deploy to the local Apache web root
-├── updatedns.sh          Cloudflare dynamic-DNS updater
 └── todo.txt              Planned features and layout sketch
 ```
 
@@ -97,13 +96,15 @@ Ideas I'm planning to add are tracked in [`todo.txt`](todo.txt), including a mus
 ## Related projects
 
 - [LearnOpenGL](https://github.com/tikitaik/LearnOpenGL): a C++ / OpenGL 3.3 renderer with PBR and image-based lighting, featured on the Projects page.
+- [terrain generator](https://github.com/tikitaik/terrain-gen): also a C++ / OpenGL 3.3 renderer, aimed at creating terrain using many algorithms and optimisations (in progress).
 
 ## Credits
 
-Fonts: [Xanh Mono](https://fonts.google.com/specimen/Xanh+Mono) and [Libertinus Mono](https://github.com/alerque/libertinus), each under its own open-source licence. Guestbook embedded from [Atabook](https://atabook.org). Third-party images and GIFs belong to their respective owners.
+- Fonts: [Xanh Mono](https://fonts.google.com/specimen/Xanh+Mono) and [Libertinus Mono](https://github.com/alerque/libertinus), each under its own open-source licence
+- Guestbook embedded from [Atabook](https://atabook.org). Third-party images and GIFs belong to their respective owners.
 
 ## Contact
 
-<!-- Add your name and links, e.g.:
-**Ed** · [GitHub](https://github.com/tikitaik) · [LinkedIn](https://linkedin.com/in/...) · you@example.com
--->
+<!-- Add your name and links, e.g.:-->
+**Edward Hirst** · [Portfolio](https://tawai.net/projects) · [LinkedIn](https://linkedin.com/in/ed-hirst) · [edthirst@gmail.com](mailto:edthirst@gmail.com)
+
