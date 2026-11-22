@@ -43,7 +43,7 @@ body {
 }
 
 button {
-    background-color: #e8f5ff;
+    background-color: #fff8ef;
     border: none;
     border-radius: 0.25em;
     font-family: "xanh";
@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: #d5dce0;
+    background-color: #e3ddcf;
     opacity: 0.85;
 }
 
