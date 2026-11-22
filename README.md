@@ -25,7 +25,7 @@ I deliberately built it by hand to understand the full path from files to a work
 | **Home** (`index.html`) | Site changelog, a short piece on the Tawai tree, and an embedded guestbook |
 | **About me** (`pages/aboutme.html`) | Who I am, what I study, and what I play in my band |
 | **Projects** (`pages/projects.html`) | Write-ups with screenshots of my graphics work: an OpenGL PBR renderer and a procedural terrain generator |
-| **Media** (`pages/media.html`) | Placeholder page, not linked from the navigation yet |
+| **Blog** (`pages/blog.html`) | A place to post thoughts about things that I find interesting |
 
 ## Technical highlights
 

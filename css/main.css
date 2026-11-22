@@ -33,17 +33,17 @@ a:active {
 }
 
 body {
-    background-image: url("../resources/jellyfish.avif");
+    background-image: url("../resources/jellyfish.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: 100vw auto;
     color: white;
     font-family: "xanh";
-    text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.3em 0.3em 0.3em black;
 }
 
 button {
-    background-color: #faf3e6;
+    background-color: #e8f5ff;
     border: none;
     border-radius: 0.25em;
     font-family: "xanh";
@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: #dbd0bd;
+    background-color: #d5dce0;
     opacity: 0.85;
 }
 
